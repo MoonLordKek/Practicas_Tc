@@ -2,6 +2,9 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/*
+Equipo 4
+*/
 
 public class practica_1 {
 
@@ -13,6 +16,8 @@ public class practica_1 {
         String elemento;
         int contador=1;
         
+        System.out.println("*************** Equipo Alfa  2CM11  Practica 1: Potencia de un lenguaje ***************");
+        System.out.println("Integrante: \nCuevas Nava Dilan Mackdiel\nGonzalez Barrientos Geovanni Daniel:\nLopez Ramirez Oscar Ivan\n");
         System.out.println("Ingrese los elementos del lenguaje, cuando desee terminar ingrese %");
         while(flag){
         	System.out.println("Ingrese el elemento "+contador+ " del lenguaje" );

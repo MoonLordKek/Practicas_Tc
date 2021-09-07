@@ -35,6 +35,12 @@ public class practica_1 {
             }else{
                 flag = false;
             }
+            if (lenguaje.isEmpty()) {
+            	System.out.println("Debe ingresar al menos un elemento al lenguaje");
+            	flag = true;
+            }else{
+            	contador++;
+            }
         }
         System.out.println("Ingrese la potencia a la que desea elevar el lenguaje");
         
